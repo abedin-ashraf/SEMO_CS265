@@ -1,3 +1,6 @@
+/*
+ Write a JAVA program to input 25 numbers into an array and print only odd numbers from that array.
+ */
 import java.util.Scanner;
 public class Lab_Exercise_01_1{
     public static void main(String[] args) {
