@@ -1,13 +1,10 @@
 /*
  Case Study: Grading a Multiple-Choice Test
-
 The problem is to write a program that will grade multiple-choice tests. Suppose you need to write a program that grades multiple-choice tests. Assume there are eight students and ten questions, and the answers are stored in a two-dimensional array. Each row records a student’s answers to the questions, as shown in the following array:
-
 Your program grades the test and displays the result. It compares each student’s answers with the key, counts the number of correct answers, and displays it. Below is the program:
-
  */
 
-public class GradeExam {
+ public class GradeExam {
     public static void main(String[] args){
         char[][] answers = {
             {'A','B','A','C','C','D','E','E','A','D'},
