@@ -29,39 +29,35 @@ public class GroupProject {
 
             }
         }
-        
-    
 
-        //find the match column-wise
-        for(int j=0; j<values[0].length; j++){
+        // find the match column-wise
+        for (int j = 0; j < values[0].length; j++) {
             int presentValue = values[0][j];
             int numberOfCount = 0;
-            for(int i=0; i<values.length; i++){
-                if(values[j][i]==presentValue){
+            for (int i = 0; i < values.length; i++) {
+                if (values[j][i] == presentValue) {
                     numberOfCount++;
-                    if(numberOfCount==4)
+                    if (numberOfCount == 4)
                         return true;
-                }
-                else{
+                } else {
                     presentValue = values[j][i];
                     numberOfCount = 1;
                 }
             }
         }
-        //finding the match bottomLeft to Up
-        for(int j=values[0].length-1; j>0; j--){
+        // finding the match bottomLeft to Up
+        for (int j = values[0].length - 1; j > 0; j--) {
             int x = j;
-            int y = values.length-1;
+            int y = values.length - 1;
             int presentValue = values[y][x];
             int numberOfCount = 0;
-            while(x>=0 && y>=0){
-                if(values[y][x]==presentValue){
+            while (x >= 0 && y >= 0) {
+                if (values[y][x] == presentValue) {
                     numberOfCount++;
-                    if(numberOfCount==4)
+                    if (numberOfCount == 4)
                         return true;
-                }
-                else{
-                    numberOfCount=1;
+                } else {
+                    numberOfCount = 1;
                     presentValue = values[y][x];
                     x--;
                     y--;
@@ -69,20 +65,19 @@ public class GroupProject {
             }
 
         }
-        //finding the match topLeft to down
-        for(int j=0; j<values[0].length; j++){
+        // finding the match topLeft to down
+        for (int j = 0; j < values[0].length; j++) {
             int x = j;
-            int y = values.length-1;
+            int y = values.length - 1;
             int presentValue = values[y][x];
             int numberOfCount = 0;
-            while(x>=0 && y<=0){
-                if(values[y][x]==presentValue){
+            while (x >= 0 && y <= 0) {
+                if (values[y][x] == presentValue) {
                     numberOfCount++;
-                    if(numberOfCount==4)
+                    if (numberOfCount == 4)
                         return true;
-                }
-                else{
-                    numberOfCount=1;
+                } else {
+                    numberOfCount = 1;
                     presentValue = values[y][x];
                     x--;
                     y--;
@@ -90,6 +85,7 @@ public class GroupProject {
             }
 
         }
+        return false;
     }
 
 }
