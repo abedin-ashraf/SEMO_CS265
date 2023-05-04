@@ -1,0 +1,182 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Project2",
+            "request": "launch",
+            "mainClass": "Project2",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Assignment03_01",
+            "request": "launch",
+            "mainClass": "Assignment03_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment03_02",
+            "request": "launch",
+            "mainClass": "Assignment03_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment06_01",
+            "request": "launch",
+            "mainClass": "Assignment06_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment06_02",
+            "request": "launch",
+            "mainClass": "Assignment06_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment07",
+            "request": "launch",
+            "mainClass": "Assignment07",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment08_01",
+            "request": "launch",
+            "mainClass": "Assignment08_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment08_02",
+            "request": "launch",
+            "mainClass": "Assignment08_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment09_01",
+            "request": "launch",
+            "mainClass": "Assignment09_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment09_02",
+            "request": "launch",
+            "mainClass": "Assignment09_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment10",
+            "request": "launch",
+            "mainClass": "Assignment10",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment11_01",
+            "request": "launch",
+            "mainClass": "Assignment11_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Assignment5",
+            "request": "launch",
+            "mainClass": "Assignment5",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "CodePost_Assignment1_01",
+            "request": "launch",
+            "mainClass": "CodePost_Assignment1_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "CodePost_Assignment1_02",
+            "request": "launch",
+            "mainClass": "CodePost_Assignment1_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "CodePost_Assignment2_01",
+            "request": "launch",
+            "mainClass": "CodePost_Assignment2_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "CodePost_Assignment2_02",
+            "request": "launch",
+            "mainClass": "CodePost_Assignment2_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "GradeExam",
+            "request": "launch",
+            "mainClass": "GradeExam",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "GroupProject",
+            "request": "launch",
+            "mainClass": "GroupProject",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Lab_Exercise_01_1",
+            "request": "launch",
+            "mainClass": "Lab_Exercise_01_1",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Lab_Exercise_01_2",
+            "request": "launch",
+            "mainClass": "Lab_Exercise_01_2",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Lab_Exercise_03_01",
+            "request": "launch",
+            "mainClass": "Lab_Exercise_03_01",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "Lab_Exercise_03_02",
+            "request": "launch",
+            "mainClass": "Lab_Exercise_03_02",
+            "projectName": "SEMO_CS265_a51f63e9"
+        },
+        {
+            "type": "java",
+            "name": "StopWatch",
+            "request": "launch",
+            "mainClass": "StopWatch",
+            "projectName": "SEMO_CS265_a51f63e9"
+        }
+    ]
+}
